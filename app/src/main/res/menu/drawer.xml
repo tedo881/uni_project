@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:checked="true"
+            android:id="@+id/item_navigation_drawer_inbox"
+            android:icon="@drawable/abc_ic_go_search_api_mtrl_alpha"
+            android:title="პირადი მონაცემები" />
+        <item
+            android:id="@+id/item_navigation_drawer_starred"
+            android:icon="@drawable/abc_ic_go_search_api_mtrl_alpha"
+            android:title="სასწავლო ბარათი" />
+        <item
+            android:id="@+id/item_navigation_drawer_sent_mail"
+            android:icon="@drawable/abc_ic_go_search_api_mtrl_alpha"
+            android:title="საგამოცდო პროგრამა" />
+        <item
+            android:id="@+id/item_navigation_drawer_drafts"
+            android:icon="@drawable/abc_ic_go_search_api_mtrl_alpha"
+            android:title="სასწავლო ცხრილი" />
+    </group>
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/exit"
+                android:icon="@drawable/abc_ic_go_search_api_mtrl_alpha"
+                android:title="გამოსვლა" />
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,86 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+    </style>
+
+    <style name="AppTheme.Drawer" parent="AppTheme.Base">
+
+
+
+    <item name="colorPrimary">@color/unicolor</item>
+    <item name="colorPrimaryDark">@color/unicolor</item>
+    </style>
+
+
+    <style name="ToolBarStyle" parent="">
+
+
+        <item name="colorPrimary">@color/unicolor</item>
+        <item name="colorPrimaryDark">@color/unicolor</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="colorAccent">@color/unicolor</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+
+        <item name="android:colorBackground">@color/unicolor</item>
+        <item name="android:textColor">#000000</item>
+
+
+
+    </style>
+
+
+    //ferebi
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#bd1a21</item>
+        <item name="colorPrimaryDark">#bd1a21</item>
+
+        <item name="colorAccent">#bd1a21</item>
+        <item name="windowActionModeOverlay">true</item>
+         <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.Base2" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#bd1a21</item>
+        <item name="colorPrimaryDark">#bd1a21</item>
+        <item name="colorAccent">#bd1a21</item>
+
+
+    </style>
+
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="colorAccent">@color/unicolor</item>
+        <item name="colorPrimary">@color/unicolor</item>
+        <item name="colorPrimaryDark">@color/unicolor</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="windowActionModeOverlay">true</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+
+        <item name="android:colorBackground">@color/unicolor</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+
+
+    <style name="btnStyleOrange" parent="@android:style/Widget.Button">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:gravity">center</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+        <item name="android:background">@drawable/custom_btn_orange</item>
+        <item name="android:padding">10dip</item>
+    </style>
+</resources>
